@@ -85,3 +85,32 @@
 // var design = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬";
 // alert (design);
 // document.write (design);
+
+
+
+// =======================Chapter # 03 (Variables for Numbers)====================
+
+//                           Question # 01
+
+// var age = 30;
+// alert ("I am " + age + " Years Old");
+
+
+//                           Question # 02
+
+// var visitedTime = 14;
+// document.write ("You have visited this site " + visitedTime + " times");
+
+
+//                           Question # 03
+
+// var birthYear = 1991;
+// document.write ("My birth year is " + birthYear);
+
+
+//                           Question # 04
+
+// var name = "Waqas Tanoli";
+// var title = " T-shirt(s)";
+// var quantity = 5;
+// document.write (name + " ordered " + quantity + title + " on XYZ Clothing store.");
