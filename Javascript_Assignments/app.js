@@ -114,3 +114,40 @@
 // var title = " T-shirt(s)";
 // var quantity = 5;
 // document.write (name + " ordered " + quantity + title + " on XYZ Clothing store.");
+
+
+
+// =======================Chapter # 0 (Variables Names:Legal & Illegal)====================
+
+
+//                           Question # 01
+
+// var customerName, clintName, visitorName;
+
+
+//                           Question # 02
+
+// var myName;
+// var father_Name;
+// var iphone_7Plus;
+// var _customerName;
+// var doller$;
+
+// var 0346;
+// var alert;
+// var 1st variable;
+// var "oppo";
+// var Myfvrt;
+
+
+//                           Question # 03
+
+// document.write ("<h1>Rules for naming JS variables</h1>")
+
+// document.write("<p>Variable names can only contain letters,Numbers,Doller sign and Underscores. For Example: $my_1stVariable</p>")
+
+// document.write ("<p>Variables must begin with a Letters,$,Underscores.For Example: $name,_name or Name.</p>")
+
+// document.write ("<p>Vriable names are case Sensitive.</p>")
+
+// document.write ("<p>Variables names should not be JS Keyword.</p>")
