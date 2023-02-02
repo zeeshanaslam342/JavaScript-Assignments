@@ -267,3 +267,64 @@
 // document.write ("Total cost of your order is " + totalCostOfOrder);
 
 
+//                           Question # 08
+
+// var totalMarks = 980;
+// var obtMarks = 804;
+// var percntg = obtMarks / totalMarks * 100;
+
+// document.write ("<h1>Marks Sheet</h1>");
+// document.write ("Total marks: " + totalMarks + "<br>");
+// document.write ("Marks obtained: " + obtMarks + "<br>");
+// document.write ("Percentage: " + percntg + "%");
+ 
+
+//                           Question # 09
+
+// var dollerInToPak = 104.80 * 10;
+// var riyalInToPak = 28 * 25;
+// var totalInPkr = dollerInToPak + riyalInToPak;
+
+// document.write ("<h1>Currency in PKR</h1>");
+// document.write ("Total Currency in PKR: " + totalInPkr);
+
+
+//                           Question # 10
+
+// var num = 5 + 5 * 10 / 2;
+// document.write (num);
+
+
+//                           Question # 11
+
+// var currentYear = 2016;
+// var birthYear = 1992;
+// var age = currentYear - birthYear;
+
+// document.write ("<h1>Age Calculator</h1>");
+// document.write ("Current Year: " + currentYear + "<br>");
+// document.write ("Birth Year: " + birthYear + "<br>");
+// document.write ("Your Age is: " + age);
+
+
+//                           Question # 12
+
+
+
+//                           Question # 13
+
+// var fovSnack = "Chocolate Chip";
+// var currentAge = 15;
+// var maxAge = 65;
+// var perDaySnacks = 3;
+// var total = (maxAge - currentAge) * 3;
+
+// document.write ("<h1>The Lifetime Supply Calculator</h1>");
+// document.write ("Favourite Snack: " + fovSnack + "<br>");
+// document.write ("Current age: " + currentAge + "<br>");
+// document.write ("Estimated Maximum Age: " + maxAge + "<br>");
+// document.write ("Amount of snacks per day: " + perDaySnacks + "<br>");
+// document.write ("You will need " + total + " chocolate chip to last you until the ripe old age of " + maxAge);
+
+
+
