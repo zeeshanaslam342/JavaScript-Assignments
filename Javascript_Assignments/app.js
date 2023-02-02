@@ -328,3 +328,35 @@
 
 
 
+// =======================Chapter # 06 To 08 (Math expressions:Unfamiliar operators)====================
+
+
+//                           Question # 01
+
+// var a = 10;
+// document.write ("<h4>Result:</h4>");
+// document.write ("The value of a is: " + a + "<br>");
+// document.write ("........................................" + "<br> <br> <br>");
+// document.write ("The value of ++a is: " + ++a + "<br>");
+// document.write ("Now the value of a is: " + a + "<br> <br> <br> <br>");
+
+// document.write ("The value of a++ is: " + a++ + "<br>");
+// document.write ("Now the value of a is: " + a + "<br> <br> <br> <br>");
+
+// document.write ("The value of --a is: " + --a + "<br>");
+// document.write ("Now the value of a is: " + a + "<br> <br> <br> <br>");
+
+// document.write ("The value of a-- is: " + a-- + "<br>");
+// document.write ("Now the value of a is: " + a + "<br> <br> <br> <br>");
+
+
+//                           Question # 02
+
+// var a = 2;
+// var b = 1;
+
+// document.write ("a is " + a + "<br>");
+// document.write ("b is " + b + "<br>");
+
+// var result = --a - --b + ++b + b--;
+// document.write ("result is " + result);
