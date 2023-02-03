@@ -360,3 +360,90 @@
 
 // var result = --a - --b + ++b + b--;
 // document.write ("result is " + result);
+
+
+
+
+// *************************Assignment_No_04_Chapter 9 to 11**************************
+
+
+// =======================Chapter # 09 (Prompts)====================
+
+
+//                           Question # 01
+
+// var name = prompt("Enter Your Name");
+// alert ("Welcome to my website " + name);
+
+
+//                           Question # 02
+
+// var userNum = +prompt("Enter a Number that you want tabel", "5");
+
+// document.write ("<h1>" + "Tabel of " + userNum + "</h1>");
+// document.write (userNum + " x 1 = " + userNum*1 + "<br>");
+// document.write (userNum + " x 2 = " + userNum*2 + "<br>");
+// document.write (userNum + " x 3 = " + userNum*3 + "<br>");
+// document.write (userNum + " x 4 = " + userNum*4 + "<br>");
+// document.write (userNum + " x 5 = " + userNum*5 + "<br>");
+// document.write (userNum + " x 6 = " + userNum*6 + "<br>");
+// document.write (userNum + " x 7 = " + userNum*7 + "<br>");
+// document.write (userNum + " x 8 = " + userNum*8 + "<br>");
+// document.write (userNum + " x 9 = " + userNum*9 + "<br>");
+// document.write (userNum + " x 10 = " + userNum*10);
+
+
+//                           Question # 03
+
+// var subject_1 = prompt("Enter the subject 1 name");
+// var subject_2 = prompt("Enter the subject 2 name");
+// var subject_3 = prompt("Enter the subject 3 name");
+
+// var totalMarks = 100;
+
+// var obtainedMarks_1 = +prompt("Enter subject 1 obitained marks");
+// var obtainedMarks_2 = +prompt("Enter subject 2 obitained marks");
+// var obtainedMarks_3 = +prompt("Enter subject 3 obitained marks");
+
+// var subject_1_Percentage = obtainedMarks_1 / totalMarks * 100;
+// var subject_2_Percentage = obtainedMarks_2 / totalMarks * 100;
+// var subject_3_Percentage = obtainedMarks_3 / totalMarks * 100;
+
+// var allSubTotalMarks = 300;
+// var allSub_Obt_MarksTotal = obtainedMarks_1 + obtainedMarks_2 + obtainedMarks_3;
+// var allSub_Total_Percentage = allSub_Obt_MarksTotal / allSubTotalMarks * 100;
+
+// document.write ("<table>" 
+//                         + "<tr>" 
+//                             + "<th>" + "Subject" + "</th>" 
+//                             + "<th>" + "Total Marks" + "</th>" 
+//                             + "<th>" + "Obtained Marks" + "</th>" 
+//                             + "<th>" + "Percentage" + "</th>" 
+//                         + "</tr>" 
+//                         + "<tr>" 
+//                             + "<td>" + subject_1 + "</td>" 
+//                             + "<td>" + totalMarks + "</td>" 
+//                             + "<td>" + obtainedMarks_1 + "</td>" 
+//                             + "<td>" + subject_1_Percentage + "%" + "</td>" 
+//                         + "</tr>"
+//                         + "<tr>" 
+//                             + "<td>" + subject_2 + "</td>" 
+//                             + "<td>" + totalMarks + "</td>" 
+//                             + "<td>" + obtainedMarks_2 + "</td>" 
+//                             + "<td>" + subject_2_Percentage + "%" + "</td>" 
+//                         + "</tr>"
+//                         + "<tr>" 
+//                             + "<td>" + subject_3 + "</td>" 
+//                             + "<td>" + totalMarks + "</td>" 
+//                             + "<td>" + obtainedMarks_3 + "</td>" 
+//                             + "<td>" + subject_3_Percentage + "%" + "</td>" 
+//                         + "</tr>"
+//                         + "<tr>" 
+//                             + "<th>" + "Grand Total" + "</th>" 
+//                             + "<td>" + allSubTotalMarks + "</td>" 
+//                             + "<td>" + allSub_Obt_MarksTotal + "</td>" 
+//                             + "<td>" + allSub_Total_Percentage + "%" + "</td>" 
+//                         + "</tr>"
+//                 + "</table>")
+
+
