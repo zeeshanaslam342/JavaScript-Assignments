@@ -684,3 +684,108 @@
 // else if (operator === "%") {
 //     alert (firstNumber % secondNumber);
 // }
+
+
+// =======================Chapters # 12 To 13 ====================
+
+//                           Question # 01
+
+// var charecter = prompt ("Enter Charecter A to Z, a to z, 0 to 9");
+// var charecterCon = charecter.charCodeAt();
+
+// if (charecterCon >= "65" && charecterCon <= "90") {
+//     alert (charecter + " is Uppercase latter");
+// }
+// else if (charecterCon >= "97" && charecterCon <= "122") {
+//     alert (charecter + " is Lowercase latter");
+// } 
+// else {
+//     alert (charecter + " is Number");
+// }
+
+
+
+//                           Question # 02
+
+// var num1 = +prompt("Enter Number 1");
+// var num2 = +prompt("Enter Number 2");
+
+// if (num1 > num2) {
+//     alert (num1 + " is greater than " + num2);
+// }
+// else if (num1 === num2) {
+//     alert (num1 + " is equal to " + num2);
+// }
+// else {
+//     alert (num1 + " is less than " + num2);
+// }
+
+
+//                           Question # 03
+
+// var num = prompt("Enter Number");
+
+// if (num > 0) {
+//     alert (num + " is positive Number");
+// }
+// else if (num < 0) {
+//     alert (num + " is negative Number");
+// }
+// else {
+//     alert (num + " is zero");
+// }
+
+
+//                           Question # 04
+
+// var alphabate = prompt("Enter a latter");
+
+// if (alphabate === "a" || alphabate === "e" || alphabate === "i" || alphabate === "o" || alphabate === "u") {
+//     alert ("true " + "'" + alphabate + "'" + " is a vowel latter");
+// }
+// else {
+//     alert ("false " + "'" + alphabate + "'" + " is a consonant latter");
+// }
+
+
+//                           Question # 05
+
+// var password = "abc1234";
+// var userPassword = prompt ("Enter yor password");
+
+// if (userPassword === password) {
+//     alert ("Correct! The password you entered matches the original password");
+// }
+// else if (userPassword)
+
+
+//                           Question # 06
+
+// var greeting; 
+// var hour = prompt ("Enter hour"); 
+// if (hour < 18) { 
+//     greeting = "Good day";
+// }
+// else {greeting = "Good evening"; 
+// }
+// alert(greeting);
+
+//                           Question # 07
+
+// var userTime = prompt("Enter the time in 24 hour formet");
+
+// if (userTime >= 0000 && userTime < 1200) {
+//     aler ("Good Morning");
+// }
+// else if (userTime >= 1200 && userTime < 1700) {
+//     alert ("Good after noon");
+// }
+// else if (userTime >= 1700 && userTime < 2100) {
+//     alert ("Good evening");
+// }
+// else if (userTime >= 2100 && userTime <= 2359) {
+//     alert ("Good evening");
+// }
+// else {
+//     alert ("Invlid time");
+// }
