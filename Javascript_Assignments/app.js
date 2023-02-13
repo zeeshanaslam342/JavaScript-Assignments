@@ -789,3 +789,201 @@
 // else {
 //     alert ("Invlid time");
 // }
+
+
+
+
+// *************************Assignment_No_05_Chapter 14 to 16 and Chapter 17 to 20**************************
+
+// =======================Chapters # 14 To 16 ====================
+
+
+//                           Question # 01
+
+// var studentsName = [];
+
+
+//                           Question # 02
+
+
+
+
+
+
+
+
+//                           Question # 03
+
+// var fruitsName = ["mango","orange","banana","apple","watermelon"];
+
+
+//                           Question # 04
+
+// var num  = [2,4,9,10,6];
+
+
+//                           Question # 05
+
+// var bolen = [true,false,true,false,false];
+
+
+//                           Question # 06
+
+// var mixd = ["samsung","infinix",45,7,true,false];
+
+
+//                           Question # 07
+
+// var degries = ["SSC","HSC","BSC","BS","BCOM","MS","M.Phil","PHD"];
+
+// document.write("<h1>Qualifications:</h1>");
+// document.write("1) " + degries[0] + "<br>"); 
+// document.write("2) " + degries[1] + "<br>"); 
+// document.write("3) " + degries[2] + "<br>"); 
+// document.write("4) " + degries[3] + "<br>"); 
+// document.write("5) " + degries[4] + "<br>"); 
+// document.write("6) " + degries[5] + "<br>"); 
+// document.write("7) " + degries[6] + "<br>"); 
+// document.write("8) " + degries[7]); 
+
+
+//                           Question # 08
+
+// var studentsName = ["Zeeshan", "Kabeer", "Waqas"];
+// var studentsScore = [320, 230, 480];
+// var percentage = [studentsScore[0] / 500 * 100, studentsScore[1] / 500 * 100, studentsScore[2] / 500 * 100];
+
+// document.write("Score of " + studentsName[0] + " is " + studentsScore[0] + ". Percentage: " + percentage[0] + "%" + "<br>");
+// document.write("Score of " + studentsName[1] + " is " + studentsScore[1] + ". Percentage: " + percentage[1] + "%" + "<br>");
+// document.write("Score of " + studentsName[2] + " is " + studentsScore[2] + ". Percentage: " + percentage[2] + "%");
+
+
+//                           Question # 09
+
+// var colorNames = ["Blue","Black","Green",];
+// document.write("<h3>" + colorNames + "</h3>");
+
+// var addColorBgi = prompt("Enter the color name that you want to add this in begining");
+// colorNames.unshift(addColorBgi);
+// document.write("<h3>" + colorNames + "</h3>");
+
+// var addColorEnd = prompt("Enter the color name that you want to add this in ending");
+// colorNames.push(addColorEnd);
+// document.write("<h3>" + colorNames + "</h3>");
+
+// colorNames.unshift("Pink","Orange");
+// document.write("<h3>" + colorNames + "</h3>");
+
+// colorNames.shift();
+// document.write("<h3>" + colorNames + "</h3>");
+
+// colorNames.pop();
+// document.write("<h3>" + colorNames + "</h3>");
+
+// var addColorIUWant = prompt("Enter the index number that you want to add color");
+// var addColorNameAdd = prompt("Enter the color name that you want to add your desire index number");
+// colorNames.splice(addColorIUWant,0,addColorNameAdd);
+// document.write("<h3>" + colorNames + "</h3>");
+
+// var deletColorIUWa = prompt("Enter the index number that you want to delete");
+// var deletedColor = prompt("Enter the number for desire delete color");
+// colorNames.splice(deletColorIUWa,deletedColor);
+// document.write("<h3>" + colorNames + "</h3>");
+
+
+
+//                           Question # 10
+
+// var studentScore = [320,230,480,120];
+// document.write("Scores of students: " + studentScore + "<br>");
+
+// studentScore.sort();
+// document.write("Ordered Scores of students: " + studentScore);
+
+
+//                           Question # 11
+
+// var citiesName = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"];
+// document.write("Cities List:" + "<br>");
+// document.write(citiesName + "<br> <br> <br>");
+
+// var selectedCities = citiesName.slice(0,3);
+// document.write("Seleted Cities List:" + "<br>");
+// document.write(selectedCities);
+
+
+//                           Question # 12
+
+// var arr = ["This","is","my","cat"];
+// document.write("Array:" + "<br>");
+// document.write(arr + "<br> <br> <br>");
+
+// var text = arr.join(" ");
+// document.write("String:" + "<br>");
+// document.write(text + "<br>");
+
+
+//                           Question # 13
+
+// var deviceses = [];
+
+// deviceses.push("keyboard");
+// deviceses.push("mouse");
+// deviceses.push("printer");
+// deviceses.push("moniter");
+
+// document.write("Devices:" + "<br>");
+// document.write(deviceses + "<br> <br> <br>");
+
+// document.write("Out:" + "<br>");
+// document.write(deviceses[0] + "<br>");
+
+// document.write("Out:" + "<br>");
+// document.write(deviceses[1] + "<br>");
+
+// document.write("Out:" + "<br>");
+// document.write(deviceses[2] + "<br>");
+
+// document.write("Out:" + "<br>");
+// document.write(deviceses[3] + "<br>");
+
+
+//                           Question # 14
+
+// var deviceses = [];
+
+// deviceses.push("keyboard");
+// deviceses.push("mouse");
+// deviceses.push("printer");
+// deviceses.push("moniter");
+
+
+// document.write("Devices:" + "<br>");
+// document.write(deviceses + "<br> <br> <br>");
+
+// deviceses.reverse();
+
+// document.write("Out:" + "<br>");
+// document.write(deviceses[0] + "<br>");
+
+// document.write("Out:" + "<br>");
+// document.write(deviceses[1] + "<br>");
+
+// document.write("Out:" + "<br>");
+// document.write(deviceses[2] + "<br>");
+
+// document.write("Out:" + "<br>");
+// document.write(deviceses[3] + "<br>");
+
+
+//                           Question # 15
+
+// var phoneName = ["Samsung","Motorola","Nokia","Sony","Haier"];
+
+// document.write("<select>"
+//                    + "<option>" + phoneName[0] + "</option>"
+//                    + "<option>" + phoneName[1] + "</option>"
+//                    + "<option>" + phoneName[2] + "</option>"
+//                    + "<option>" + phoneName[3] + "</option>"
+//                    + "<option>" + phoneName[4] + "</option>"
+//             + "</select>")
