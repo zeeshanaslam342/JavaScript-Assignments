@@ -987,3 +987,194 @@
 //                    + "<option>" + phoneName[3] + "</option>"
 //                    + "<option>" + phoneName[4] + "</option>"
 //             + "</select>")
+
+
+
+// =======================Chapters # 17 To 20 ====================
+
+//                           Question # 01
+
+// var multiarr = [[],[],[]];
+
+//                           Question # 02
+
+// var matrix = [[0,1,2,3],[1,0,1,2],[1,0,1,2]];
+
+// document.write(matrix[0].join(" ") + "<br>");
+// document.write(matrix[1].join(" ") + "<br>");
+// matrix[2].reverse();
+// document.write(matrix[2].join(" "));
+
+
+//                           Question # 03
+
+// for (var i = 1; i <= 10; i++) {
+//     document.write(i + "<br>");
+// }
+
+
+//                           Question # 04
+
+// var tableNo = prompt("Enter The tabel number that you want to print");
+// var tableLength = prompt("Enter the length number");
+
+// document.write("Multiplication table of " + tableNo + " Length " + tableLength + "<br>");
+
+// for (var i = 1; i <= tableLength; i++) {
+//     document.write(tableNo + " x " + i + " = " + tableNo * i + "<br>");
+// }
+
+
+//                           Question # 05
+
+// var fruits = ["apple","banana","mango","orange","strawbery"];
+
+// for (var i = 0; i < fruits.length; i++) {
+//     document.write(fruits[i] + "<br>");
+
+// }
+
+// for (var i = 0; i < fruits.length; i++) {
+//     document.write("Element at index " + i + " is " + fruits[i] + "<br>");
+// }
+
+
+//                           Question # 06
+
+// document.write("<br><br> Counting: <br><br><br>");
+
+// var counting = [];
+
+// for (var i = 1; i <= 15; i++) {
+//     counting.push(i);
+// }
+
+// document.write(counting);
+
+
+
+// document.write("<br><br> Reverse Counting: <br><br><br>");
+
+// var reverseCounting = [];
+
+// for (var i = 10; i > 0 ; i--) {
+//     reverseCounting.push(i);
+// }
+
+// document.write(reverseCounting);
+
+
+
+// document.write("<br><br> Even: <br><br><br>");
+
+// var even = [];
+
+// for (var i = 0; i <= 20 ; i++) {
+//     if (i % 2 === 0) {
+//         even.push(i);
+//     }
+// }
+
+// document.write(even);
+
+
+
+// document.write("<br><br> Odd: <br><br><br>");
+
+// var odd = [];
+
+// for (var i = 1; i < 20 ; i++) {
+//     if (i % 2 !== 0) {
+//         odd.push(i);
+//     }
+// }
+
+// document.write(odd);
+
+
+
+// document.write("<br><br> Series: <br><br><br>");
+
+// var series = [];
+
+// for (var i = 2; i <= 20 ; i++) {
+//     if (i % 2 === 0) {
+//         series.push(i + "k");
+//     }
+// }
+
+// document.write(series);
+
+
+//                           Question # 07
+
+// var itemes = ["cake","apple pie","cookie","chips","patties"];
+// var enterItem = prompt("Welcome to Shani's Bakery. What do you want to order sir/ma'am?");
+// var flag = false;
+// for (var i = 0; i < itemes.length; i++) {
+//     if (enterItem === itemes[i]){
+//     flag = true;
+//     break;
+//     }
+// }
+
+// if (flag === true) {
+//     document.write(enterItem + " is available at index " + i + " in our bakery");
+// }
+// else {
+//     document.write("We are sorry. " + enterItem + " is not available in our bakery");
+// }
+
+
+// var itemes = ["cake","apple pie","cookie","chips","patties"];
+// var enterItem = prompt("Welcome to Shani's Bakery. What do you want to order sir/ma'am?");
+// var flag = false;
+// var index;
+// for (var i = 0; i < itemes.length; i++) {
+//     if (enterItem === itemes[i]){
+//       flag = true
+//       index = i
+//     }
+// }
+
+// if (flag === true) {
+//     document.write(enterItem + " is available at index " + index + " in our bakery");
+// }
+// else {
+//     document.write("We are sorry. " + enterItem + " is not available in our bakery");
+// }
+
+
+//                           Question # 08
+
+// var arrItems = [24,53,78,91,12];
+
+// var largestNum = 0;
+// for (var i = 0; i < arrItems.length; i++) {
+//     if (largestNum < arrItems[i]) {
+//         largestNum = arrItems[i]
+//     }
+// }
+// document.write ("Array items: " + arrItems + "<br>");
+// document.write ("The largest number is " + largestNum);
+
+
+//                           Question # 09
+
+// var arrItems = [24,53,78,91,12];
+
+// var smallestNum = 91;
+// for (var i = 0; i < arrItems.length; i++) {
+//     if (smallestNum > arrItems[i]) {
+//         smallestNum = arrItems[i]
+//     }
+// }
+// document.write ("Array items: " + arrItems + "<br>");
+// document.write ("The smallest number is " + smallestNum);
+
+
+//                           Question # 10
+
+// for (i = 1; i <= 20; i++) {
+//     document.write (5 * i + ",")   
+// }
