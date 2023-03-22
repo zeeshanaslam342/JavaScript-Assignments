@@ -1402,3 +1402,70 @@
 //     }
 // }
 // document.write("There are " + arr2.length + " occurrence(s) of 'the'");
+
+
+
+// ************************* Assignment_No_07_Chapter 26 to 30 **************************
+
+//                           Question # 01
+
+// var userInteger = prompt("Enter number with decimal");
+
+// document.write("Number: " + userInteger + "<br>");
+// document.write("Round off value: " + Math.round(userInteger) + "<br>");
+// document.write("Floor value: " + Math.floor(userInteger) + "<br>");
+// document.write("Ceil value: " + Math.ceil(userInteger));
+
+
+//                           Question # 02
+
+// var userInput = prompt("Enter a nagetive number");
+
+// document.write("Number: " + userInput + "<br>");
+// document.write("Round off value: " + Math.round(userInput) + "<br>");
+// document.write("Floor value: " + Math.floor(userInput) + "<br>");
+// document.write("Ceil value: " + Math.ceil(userInput));
+
+
+//                           Question # 03
+
+
+//                           Question # 04
+
+// var dice = Math.floor(Math.random() * 6 + 1);
+// document.write("Random dice vlaue: " + dice);
+
+
+//                           Question # 05
+
+// var coinValue = Math.floor(Math.random() * 2 + 1);
+
+// if (coinValue === 2){
+//     document.write("Random Coin Value: Heads");
+// }
+// else if (coinValue === 1){
+//     document.write("Random Coin Value: Tails");
+// }
+
+
+//                           Question # 06
+
+// var randomNum = Math.floor(Math.random() * 100 + 1);
+// document.write("Random number between 1 and 100: " + randomNum);
+
+
+//                           Question # 07
+
+
+//                           Question # 08
+
+
+// var num = prompt("Enter a number between 1 and 10");
+// var randomSecNum = Math.floor(Math.random() * 10 + 1).toString();
+
+// if (randomSecNum === num) {
+//     alert("congratulations");
+// }
+// else{
+//     alert("Try again!");
+// }
